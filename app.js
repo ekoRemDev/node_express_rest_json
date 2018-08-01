@@ -10,7 +10,12 @@ const fs = require('fs');
 * this route runs and prints "Route Works" on screen
 */
 app.get('/', (req, res) => {
-    res.send('Route Works');
+    fs.readFile('message.html',(err,html)=>{
+        res.writeHeader(200, {"Content-Type": "text/html"});
+        res.write(html);
+        res.end();
+    });
+    // res.send('Route Works');
 });
 
 // 4- Routes For JSON CRUD Operations

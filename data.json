@@ -1,1 +1,27 @@
-{"member1":{"name":"Rob","surname":"Halford","instrument":"Vocal"},"member2":{"name":"Ian","surname":"Hill","instrument":"Bass"},"member3":{"name":"Scott","surname":"Travis","instrument":"Drums"},"member4":{"name":"Glenn","surname":"Tipton","instrument":"Guitars"},"member5":{"name":"Ritchie","surname":"Faulkner","instrument":"Guitars"}}
+{
+  "member1": {
+    "name": "Rob",
+    "surname": "Halford",
+    "instrument": "Vocal"
+  },
+  "member2": {
+    "name": "Ian",
+    "surname": "Hill",
+    "instrument": "Bass"
+  },
+  "member3": {
+    "name": "Scott",
+    "surname": "Travis",
+    "instrument": "Drums"
+  },
+  "member4": {
+    "name": "Glenn",
+    "surname": "Tipton",
+    "instrument": "Guitars"
+  },
+  "member5": {
+    "name": "Ritchie",
+    "surname": "Faulkner",
+    "instrument": "Guitars"
+  }
+}
